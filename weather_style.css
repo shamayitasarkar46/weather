@@ -79,13 +79,29 @@
     .weather h2{
         font-size: 32px;
     }
+    .card{
+        padding: 60px;
+    }
 }
-@media(max-width:542px) {
+@media(max-width:577px) {
+    .city{
+        margin-bottom: 20px;
+    }
+    .details{
+        margin-top: 8px;
+        padding-top: 10px;
+    }
     .column{
         font-size: 18px;
-        padding: 10px;
-        margin: 8px;
-        display: block;
+        padding: 4px;
+        margin:4px;
+        display: inline-block;
+    }
+    .left{
+        margin-right: 20px;
+    }
+    .right{
+        margin-left: 20px;
     }
     .search input{
         width: 100%;
@@ -93,5 +109,11 @@
     }
     .search button{
         border-radius: 50%;
+    }
+}
+
+@media(max-width:490px){
+    .card{
+        padding: 40px;
     }
 }
