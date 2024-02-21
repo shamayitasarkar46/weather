@@ -24,23 +24,23 @@ async function checkWeather(city){
         weather_icon.src='https://cdn3.iconfinder.com/data/icons/weather-ios-11-1/50/Partly_Cloudy_Cloudy_Sun_Cloud_Nebulosity_Apple_Weather-1024.png';
     }
     else if(data.weather[0].main == "Clear"){
-        weather_icon.src='https://cdn3.iconfinder.com/data/icons/weather-ios-11-1/50/Sunny_Clear_Sun_Sunlight_Apple_Weather-512.png';
+        weather_icon.src='clear.png';
     }
     else if(data.weather[0].main == "Clouds"){
-        weather_icon.src='https://cdn2.iconfinder.com/data/icons/weather-24/256/Cloud_Cover-512.png';/*https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-1024.png*/
+        weather_icon.src='clouds1.png';/*https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-1024.png*/
     }
     else if(data.weather[0].main == "Rain"){
-        weather_icon.src='https://whatemoji.org/wp-content/uploads/2020/07/Cloud-With-Rain-Emoji-1024x1024.png';
+        weather_icon.src='rain1.png';
     }
     else if(data.weather[0].main == "Drizzle"){
         /*weather_icon.src='';*/
-        weather_icon.src='https://cdn3d.iconscout.com/3d/premium/thumb/drizzle-weather-7096832-5753008.png';
+        weather_icon.src='drizzle1.jpg';
     }
     else if(data.weather[0].main == "Thunderstorm"){
-        weather_icon.src='https://icon-library.com/images/thunderstorm-icon/thunderstorm-icon-10.jpg';
+        weather_icon.src='thunderstorm1.png';
     }
     else if(data.weather[0].main == "Haze"){
-        weather_icon.src='https://files.softicons.com/download/web-icons/android-weather-icons-by-bharath-prabhuswamy/png/512x512/Haze.png';
+        weather_icon.src='clouds.png';
     }
     else if(data.weather[0].main == "Snow"){
         weather_icon.src='snow.png';
